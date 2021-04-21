@@ -1,0 +1,19 @@
+application/cache
+
+
+#logs
+*.log !important.log
+
+#IDE files
+.idea/
+.vs/
+**/logs 
+*.log
+
+
+*/obj/*/
+*/bin/*/
+*/bin/*
+
+/api/Properties
+
