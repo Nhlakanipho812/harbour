@@ -1,0 +1,81 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/n.buthelezi/Desktop/DecisionInc/harbour/api/api.csproj",
+    "projectName": "api",
+    "projectPath": "/Users/n.buthelezi/Desktop/DecisionInc/harbour/api/api.csproj",
+    "outputPath": "/Users/n.buthelezi/Desktop/DecisionInc/harbour/api/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {
+          "/Users/n.buthelezi/Desktop/DecisionInc/harbour/harbour.helpers/harbour.helpers.csproj": {
+            "projectPath": "/Users/n.buthelezi/Desktop/DecisionInc/harbour/harbour.helpers/harbour.helpers.csproj"
+          },
+          "/Users/n.buthelezi/Desktop/DecisionInc/harbour/harbour.model__views/harbour.model__views.csproj": {
+            "projectPath": "/Users/n.buthelezi/Desktop/DecisionInc/harbour/harbour.model__views/harbour.model__views.csproj"
+          },
+          "/Users/n.buthelezi/Desktop/DecisionInc/harbour/harbour.services/harbour.services.csproj": {
+            "projectPath": "/Users/n.buthelezi/Desktop/DecisionInc/harbour/harbour.services/harbour.services.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "Microsoft.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "Microsoft.EntityFrameworkCore.Design": {
+          "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "Microsoft.EntityFrameworkCore.SqlServer": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "Swashbuckle.AspNetCore.Swagger": {
+          "target": "Package",
+          "version": "[5.6.3, )"
+        },
+        "Swashbuckle.AspNetCore.SwaggerGen": {
+          "target": "Package",
+          "version": "[5.6.3, )"
+        },
+        "Swashbuckle.AspNetCore.SwaggerUi": {
+          "target": "Package",
+          "version": "[5.6.3, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "harbour.model__views/1.0.0": {
+        "runtime": {
+          "harbour.model__views.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "harbour.model__views/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

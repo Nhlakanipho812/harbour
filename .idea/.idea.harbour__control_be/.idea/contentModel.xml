@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="api" t="IncludeRecursive">
+        <e p="api.csproj" t="IncludeRecursive" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="BoatController.cs" t="Include" />
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20210420202228_initial.cs" t="Include" />
+          <e p="20210420202228_initial.Designer.cs" t="Include" />
+          <e p="20210421095528_newTable_boatTransactions.cs" t="Include" />
+          <e p="20210421095528_newTable_boatTransactions.Designer.cs" t="Include" />
+          <e p="20210421150444_referenceCode.cs" t="Include" />
+          <e p="20210421150444_referenceCode.Designer.cs" t="Include" />
+          <e p="20210421154107_test.cs" t="Include" />
+          <e p="20210421154107_test.Designer.cs" t="Include" />
+          <e p="20210421170809_name.cs" t="Include" />
+          <e p="20210421170809_name.Designer.cs" t="Include" />
+          <e p="HarbourDbModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="api.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="harbour.helpers" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="harbour.helpers.csproj" t="IncludeRecursive" />
+        <e p="HarbourDb.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="harbour.helpers.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="harbour.model__views" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BoatTransactionViewModel.cs" t="Include" />
+        <e p="BoatViewModel.cs" t="Include" />
+        <e p="harbour.model__views.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="harbour.model__views.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ResponseViewModel.cs" t="Include" />
+        <e p="TransactionViewModel.cs" t="Include" />
+      </e>
+      <e p="harbour.models" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Boat.cs" t="Include" />
+        <e p="BoatTransaction.cs" t="Include" />
+        <e p="harbour.models.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="harbour.models.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="harbour.services" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BoatService.cs" t="Include" />
+        <e p="harbour.services.csproj" t="IncludeRecursive" />
+        <e p="IBoatService.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="harbour.services.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="harbour__control_be.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_harbour__control_be.344858903.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/ide" t="IncludeRecursive" />
+  </component>
+</project>
