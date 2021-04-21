@@ -42,10 +42,9 @@ namespace harbour.services
 
                     var arrivalTimeAtOpenSea = DateTime.Now.TimeOfDay;
 
-                    //cater for the wind speed
+                    //cater for the wind speed for sailboats
                     var getWindSpeed = _openWeather.GetWindSpeed();
-                    if (getWindSpeed < 10) continue;
-                    if(getWindSpeed > 30) continue;
+                    if ((getWindSpeed < 10  || getWindSpeed > 30) && boat.Name == "Sailboat") continue;
                     
                     //the task waits for another task to finish before it starts.
                     Task.Run(() =>
@@ -110,13 +109,13 @@ namespace harbour.services
             {
                 using (_db)
                 {
-                   
+                    var res = GenerateBoats().ToList();
                     return new ResponseViewModel<List<TransactionViewModel>>
                     {
                         Code = 200,
-                        Data = GenerateBoats().ToList(),
+                        Data = res,
                         Errors = null,
-                        Message = "successfully completed the trial"
+                        Message =  "success"
                     };
                 }
             }
