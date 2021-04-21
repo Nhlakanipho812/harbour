@@ -67,7 +67,7 @@ namespace harbour.services
             //calculate time and convert it to milliseconds where 3600 is seconds in an hour and 1000 is milliseconds in a millisecond
             var hours = Perimeter / (double) boat.Speed;
             var seconds = hours * 3600;
-            var milliSeconds = seconds * 10;
+            var milliSeconds = seconds * 1000;
 
             var departureTimeAtOpenSea = DateTime.Now.TimeOfDay;
 
