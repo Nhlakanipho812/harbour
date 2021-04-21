@@ -48,6 +48,19 @@
           </e>
         </e>
       </e>
+      <e p="harbour.integration" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="harbour.integration.csproj" t="IncludeRecursive" />
+        <e p="IOpenWeather.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="harbour.integration.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="OpenWeather.cs" t="Include" />
+      </e>
       <e p="harbour.model__views" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="BoatTransactionViewModel.cs" t="Include" />

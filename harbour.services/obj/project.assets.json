@@ -176,6 +176,19 @@
           "bin/placeholder/harbour.helpers.dll": {}
         }
       },
+      "harbour.integration/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "harbour.model__views": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/harbour.integration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/harbour.integration.dll": {}
+        }
+      },
       "harbour.models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
@@ -560,6 +573,11 @@
       "path": "../harbour.helpers/harbour.helpers.csproj",
       "msbuildProject": "../harbour.helpers/harbour.helpers.csproj"
     },
+    "harbour.integration/1.0.0": {
+      "type": "project",
+      "path": "../harbour.integration/harbour.integration.csproj",
+      "msbuildProject": "../harbour.integration/harbour.integration.csproj"
+    },
     "harbour.models/1.0.0": {
       "type": "project",
       "path": "../harbour.models/harbour.models.csproj",
@@ -574,6 +592,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
       "harbour.helpers >= 1.0.0",
+      "harbour.integration >= 1.0.0",
       "harbour.model__views >= 1.0.0",
       "harbour.models >= 1.0.0"
     ]
@@ -595,7 +614,7 @@
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/n.buthelezi/.nuget/NuGet/NuGet.Config"
+        "/Users/n.buthelezi/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
@@ -608,6 +627,9 @@
           "projectReferences": {
             "/Users/n.buthelezi/Desktop/DecisionInc/harbour/harbour.helpers/harbour.helpers.csproj": {
               "projectPath": "/Users/n.buthelezi/Desktop/DecisionInc/harbour/harbour.helpers/harbour.helpers.csproj"
+            },
+            "/Users/n.buthelezi/Desktop/DecisionInc/harbour/harbour.integration/harbour.integration.csproj": {
+              "projectPath": "/Users/n.buthelezi/Desktop/DecisionInc/harbour/harbour.integration/harbour.integration.csproj"
             },
             "/Users/n.buthelezi/Desktop/DecisionInc/harbour/harbour.models/harbour.models.csproj": {
               "projectPath": "/Users/n.buthelezi/Desktop/DecisionInc/harbour/harbour.models/harbour.models.csproj"
@@ -635,13 +657,7 @@
           "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true,
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+        "warn": true
       }
     }
   }

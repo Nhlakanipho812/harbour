@@ -148,3 +148,5 @@
 /Users/n.buthelezi/Desktop/DecisionInc/harbour/api/obj/Debug/netcoreapp3.1/api.dll
 /Users/n.buthelezi/Desktop/DecisionInc/harbour/api/obj/Debug/netcoreapp3.1/api.pdb
 /Users/n.buthelezi/Desktop/DecisionInc/harbour/api/obj/Debug/netcoreapp3.1/api.genruntimeconfig.cache
+/Users/n.buthelezi/Desktop/DecisionInc/harbour/api/bin/Debug/netcoreapp3.1/harbour.integration.dll
+/Users/n.buthelezi/Desktop/DecisionInc/harbour/api/bin/Debug/netcoreapp3.1/harbour.integration.pdb

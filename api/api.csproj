@@ -16,6 +16,7 @@
     </ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\harbour.helpers\harbour.helpers.csproj" />
+      <ProjectReference Include="..\harbour.integration\harbour.integration.csproj" />
       <ProjectReference Include="..\harbour.model__views\harbour.model__views.csproj" />
       <ProjectReference Include="..\harbour.services\harbour.services.csproj" />
     </ItemGroup>

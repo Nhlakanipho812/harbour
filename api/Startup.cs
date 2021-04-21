@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using harbour.helpers;
+using harbour.integration;
 using harbour.services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -39,6 +40,7 @@ namespace api
             services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo {Title = "Decision Inc - Harbour", Version = "v1"}); });
             
             services.AddScoped<IBoatService, BoatService>();
+            services.AddScoped<IOpenWeather, OpenWeather>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

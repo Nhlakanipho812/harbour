@@ -9,6 +9,7 @@
       "harbour.services/1.0.0": {
         "dependencies": {
           "harbour.helpers": "1.0.0",
+          "harbour.integration": "1.0.0",
           "harbour.model__views": "1.0.0",
           "harbour.models": "1.0.0"
         },
@@ -164,6 +165,14 @@
           "harbour.helpers.dll": {}
         }
       },
+      "harbour.integration/1.0.0": {
+        "dependencies": {
+          "harbour.model__views": "1.0.0"
+        },
+        "runtime": {
+          "harbour.integration.dll": {}
+        }
+      },
       "harbour.models/1.0.0": {
         "runtime": {
           "harbour.models.dll": {}
@@ -172,6 +181,14 @@
       "harbour.model__views/1.0.0": {
         "runtime": {
           "harbour.model__views.dll": {}
+        }
+      },
+      "Newtonsoft.Json/10.0.0.0": {
+        "runtime": {
+          "Newtonsoft.Json.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.1.20720"
+          }
         }
       }
     }
@@ -285,6 +302,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "harbour.integration/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "harbour.models/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -292,6 +314,11 @@
     },
     "harbour.model__views/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/10.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

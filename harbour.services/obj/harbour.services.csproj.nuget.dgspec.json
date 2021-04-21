@@ -17,7 +17,7 @@
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/n.buthelezi/.nuget/NuGet/NuGet.Config"
+          "/Users/n.buthelezi/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -63,13 +63,58 @@
             "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
+          "warn": true
+        }
+      }
+    },
+    "/Users/n.buthelezi/Desktop/DecisionInc/harbour/harbour.integration/harbour.integration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/n.buthelezi/Desktop/DecisionInc/harbour/harbour.integration/harbour.integration.csproj",
+        "projectName": "harbour.integration",
+        "projectPath": "/Users/n.buthelezi/Desktop/DecisionInc/harbour/harbour.integration/harbour.integration.csproj",
+        "packagesPath": "/Users/n.buthelezi/.nuget/packages/",
+        "outputPath": "/Users/n.buthelezi/Desktop/DecisionInc/harbour/harbour.integration/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/n.buthelezi/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "/Users/n.buthelezi/Desktop/DecisionInc/harbour/harbour.model__views/harbour.model__views.csproj": {
+                "projectPath": "/Users/n.buthelezi/Desktop/DecisionInc/harbour/harbour.model__views/harbour.model__views.csproj"
+              }
             }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
         }
       }
     },
@@ -86,7 +131,7 @@
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/n.buthelezi/.nuget/NuGet/NuGet.Config"
+          "/Users/n.buthelezi/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -116,13 +161,7 @@
             "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     },
@@ -139,7 +178,7 @@
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/n.buthelezi/.nuget/NuGet/NuGet.Config"
+          "/Users/n.buthelezi/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -169,13 +208,7 @@
             "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     },
@@ -192,7 +225,7 @@
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/n.buthelezi/.nuget/NuGet/NuGet.Config"
+          "/Users/n.buthelezi/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -205,6 +238,9 @@
             "projectReferences": {
               "/Users/n.buthelezi/Desktop/DecisionInc/harbour/harbour.helpers/harbour.helpers.csproj": {
                 "projectPath": "/Users/n.buthelezi/Desktop/DecisionInc/harbour/harbour.helpers/harbour.helpers.csproj"
+              },
+              "/Users/n.buthelezi/Desktop/DecisionInc/harbour/harbour.integration/harbour.integration.csproj": {
+                "projectPath": "/Users/n.buthelezi/Desktop/DecisionInc/harbour/harbour.integration/harbour.integration.csproj"
               },
               "/Users/n.buthelezi/Desktop/DecisionInc/harbour/harbour.models/harbour.models.csproj": {
                 "projectPath": "/Users/n.buthelezi/Desktop/DecisionInc/harbour/harbour.models/harbour.models.csproj"
@@ -232,13 +268,7 @@
             "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     }

@@ -1,13 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d73e7c4e-d7d6-4245-bb70-457fce736242" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/harbour.integration/IOpenWeather.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/harbour.integration/OpenWeather.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.harbour__control_be/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.harbour__control_be/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.harbour__control_be/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.harbour__control_be/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/api/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/api/api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/bin/Debug/netcoreapp3.1/api.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/bin/Debug/netcoreapp3.1/api.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/bin/Debug/netcoreapp3.1/api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/api/bin/Debug/netcoreapp3.1/api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/bin/Debug/netcoreapp3.1/api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/api/bin/Debug/netcoreapp3.1/api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/bin/Debug/netcoreapp3.1/harbour.model__views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/api/bin/Debug/netcoreapp3.1/harbour.model__views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/bin/Debug/netcoreapp3.1/harbour.model__views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/api/bin/Debug/netcoreapp3.1/harbour.model__views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/bin/Debug/netcoreapp3.1/harbour.services.dll" beforeDir="false" afterPath="$PROJECT_DIR$/api/bin/Debug/netcoreapp3.1/harbour.services.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/bin/Debug/netcoreapp3.1/harbour.services.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/api/bin/Debug/netcoreapp3.1/harbour.services.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/obj/Debug/netcoreapp3.1/api.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/api/obj/Debug/netcoreapp3.1/api.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/obj/Debug/netcoreapp3.1/api.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/obj/Debug/netcoreapp3.1/api.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/obj/Debug/netcoreapp3.1/api.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/api/obj/Debug/netcoreapp3.1/api.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/obj/Debug/netcoreapp3.1/api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/api/obj/Debug/netcoreapp3.1/api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/obj/Debug/netcoreapp3.1/api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/api/obj/Debug/netcoreapp3.1/api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/obj/api.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/api/obj/api.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/obj/api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/obj/api.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/obj/api.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/api/obj/api.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/harbour.model__views/BoatViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/harbour.model__views/BoatViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/harbour.model__views/bin/Debug/netcoreapp3.0/harbour.model__views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/harbour.model__views/bin/Debug/netcoreapp3.0/harbour.model__views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/harbour.model__views/bin/Debug/netcoreapp3.0/harbour.model__views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/harbour.model__views/bin/Debug/netcoreapp3.0/harbour.model__views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/harbour.model__views/obj/Debug/netcoreapp3.0/harbour.model__views.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/harbour.model__views/obj/Debug/netcoreapp3.0/harbour.model__views.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/harbour.model__views/obj/Debug/netcoreapp3.0/harbour.model__views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/harbour.model__views/obj/Debug/netcoreapp3.0/harbour.model__views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/harbour.model__views/obj/Debug/netcoreapp3.0/harbour.model__views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/harbour.model__views/obj/Debug/netcoreapp3.0/harbour.model__views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/harbour.models/obj/Debug/netcoreapp3.0/harbour.models.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/harbour.models/obj/Debug/netcoreapp3.0/harbour.models.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/harbour.services/BoatService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/harbour.services/BoatService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/harbour.services/bin/Debug/netcoreapp3.0/harbour.model__views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/harbour.services/bin/Debug/netcoreapp3.0/harbour.model__views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/harbour.services/bin/Debug/netcoreapp3.0/harbour.model__views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/harbour.services/bin/Debug/netcoreapp3.0/harbour.model__views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/harbour.services/bin/Debug/netcoreapp3.0/harbour.services.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/harbour.services/bin/Debug/netcoreapp3.0/harbour.services.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/harbour.services/bin/Debug/netcoreapp3.0/harbour.services.dll" beforeDir="false" afterPath="$PROJECT_DIR$/harbour.services/bin/Debug/netcoreapp3.0/harbour.services.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/harbour.services/bin/Debug/netcoreapp3.0/harbour.services.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/harbour.services/bin/Debug/netcoreapp3.0/harbour.services.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/harbour.services/harbour.services.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/harbour.services/harbour.services.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/harbour.services/obj/Debug/netcoreapp3.0/harbour.services.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/harbour.services/obj/Debug/netcoreapp3.0/harbour.services.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/harbour.services/obj/Debug/netcoreapp3.0/harbour.services.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/harbour.services/obj/Debug/netcoreapp3.0/harbour.services.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/harbour.services/obj/Debug/netcoreapp3.0/harbour.services.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/harbour.services/obj/Debug/netcoreapp3.0/harbour.services.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/harbour.services/obj/Debug/netcoreapp3.0/harbour.services.dll" beforeDir="false" afterPath="$PROJECT_DIR$/harbour.services/obj/Debug/netcoreapp3.0/harbour.services.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/harbour.services/obj/Debug/netcoreapp3.0/harbour.services.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/harbour.services/obj/Debug/netcoreapp3.0/harbour.services.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/harbour.services/obj/harbour.services.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/harbour.services/obj/harbour.services.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/harbour.services/obj/harbour.services.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/harbour.services/obj/harbour.services.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/harbour.services/obj/harbour.services.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/harbour.services/obj/harbour.services.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/harbour.services/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/harbour.services/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/harbour.services/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/harbour.services/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/harbour__control_be.sln" beforeDir="false" afterPath="$PROJECT_DIR$/harbour__control_be.sln" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/harbour.model__views/BoatViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/harbour.services/IBoatService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/harbour.integration/OpenWeather.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/harbour.integration/IOpenWeather.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/harbour.services/BoatService.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/harbour.integration/Class1.cs" />
+        <option value="$PROJECT_DIR$/api/Startup.cs" />
+        <option value="$PROJECT_DIR$/harbour.model__views/BoatViewModel.cs" />
+        <option value="$PROJECT_DIR$/harbour.integration/IOpenWeather.cs" />
+        <option value="$PROJECT_DIR$/harbour.integration/OpenWeather.cs" />
+        <option value="$PROJECT_DIR$/harbour.services/BoatService.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1rUgcIMkyHIkwcFpgQjaIAZzhH2" />
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.api">
     <configuration name="api" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -40,5 +129,48 @@
         <option name="Build" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d73e7c4e-d7d6-4245-bb70-457fce736242" name="Default Changelist" comment="" />
+      <created>1619036160155</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619036160155</updated>
+      <workItem from="1619036162040" duration="4835000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

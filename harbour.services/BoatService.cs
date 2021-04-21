@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using harbour.helpers;
+using harbour.integration;
 using harbour.model__views;
 using harbour.models;
 
@@ -13,10 +14,12 @@ namespace harbour.services
     {
         private readonly HarbourDb _db;
         private const int Perimeter = 10;
+        private readonly IOpenWeather _openWeather;
 
-        public BoatService(HarbourDb db)
+        public BoatService(HarbourDb db, IOpenWeather openWeather)
         {
             _db = db;
+            _openWeather = openWeather;
         }
 
         private IEnumerable<TransactionViewModel> GenerateBoats()
@@ -39,6 +42,11 @@ namespace harbour.services
 
                     var arrivalTimeAtOpenSea = DateTime.Now.TimeOfDay;
 
+                    //cater for the wind speed
+                    var getWindSpeed = _openWeather.GetWindSpeed();
+                    if (getWindSpeed < 10) continue;
+                    if(getWindSpeed > 30) continue;
+                    
                     //the task waits for another task to finish before it starts.
                     Task.Run(() =>
                     {
@@ -102,6 +110,7 @@ namespace harbour.services
             {
                 using (_db)
                 {
+                   
                     return new ResponseViewModel<List<TransactionViewModel>>
                     {
                         Code = 200,
@@ -134,10 +143,13 @@ namespace harbour.services
                         Id = s.Id,
                         BatchNumber = s.RecordCode,
                         TransactionDate = s.TransactionDate,
-                        ArrivalTimeAtHarbour = $"{s.Name}-{s.Reference} arrived at harbour at {ConvertTimeSpan(s.ArrivalTimeAtHarbour)} ",
-                        ArrivalTimeAtOpenSea = $"{s.Name}-{s.Reference} arrived at open sea at {ConvertTimeSpan(s.ArrivalTimeAtOpenSea)}" ,
-                        DepartureTimeAtOpenSea = $"{s.Name}-{s.Reference} departed open sea at {ConvertTimeSpan(s.DepartureTimeAtOpenSea)}"
+                        ArrivalTimeAtHarbour = $"arrived at harbour at {ConvertTimeSpan(s.ArrivalTimeAtHarbour)} ",
+                        ArrivalTimeAtOpenSea = $"arrived at open sea at {ConvertTimeSpan(s.ArrivalTimeAtOpenSea)}" ,
+                        DepartureTimeAtOpenSea = $"departed open sea at {ConvertTimeSpan(s.DepartureTimeAtOpenSea)}",
+                        BoatName = $"{s.Name}-{s.Reference}",
+                        TimeTaken = $"Took {ConvertTimeSpan(s.ArrivalTimeAtHarbour - s.DepartureTimeAtOpenSea)} to get to the harbour"
                     }).ToList();
+
                     return new ResponseViewModel<List<TransactionViewModel>>
                     {
                         Code = 200,

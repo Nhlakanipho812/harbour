@@ -31,6 +31,7 @@
           "Swashbuckle.AspNetCore.SwaggerGen": "5.6.3",
           "Swashbuckle.AspNetCore.SwaggerUI": "5.6.3",
           "harbour.helpers": "1.0.0",
+          "harbour.integration": "1.0.0",
           "harbour.model__views": "1.0.0",
           "harbour.services": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
@@ -1452,6 +1453,17 @@
           "harbour.helpers.dll": {}
         }
       },
+      "harbour.integration/1.0.0": {
+        "dependencies": {
+          "harbour.model__views": "1.0.0"
+        },
+        "runtime": {
+          "harbour.integration.dll": {}
+        },
+        "compile": {
+          "harbour.integration.dll": {}
+        }
+      },
       "harbour.models/1.0.0": {
         "runtime": {
           "harbour.models.dll": {}
@@ -1471,6 +1483,7 @@
       "harbour.services/1.0.0": {
         "dependencies": {
           "harbour.helpers": "1.0.0",
+          "harbour.integration": "1.0.0",
           "harbour.model__views": "1.0.0",
           "harbour.models": "1.0.0"
         },
@@ -3810,6 +3823,11 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "harbour.helpers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "harbour.integration/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
