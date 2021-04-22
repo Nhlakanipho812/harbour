@@ -1,2 +1,28 @@
 # harbour
-The Durban harbor control requires a concurrency safe application that will help the staff control the flow of boats and ships into the harbor. • The harbor has a perimeter of 10km between the dock, and the open sea. • The harbor can only allow one boat into the perimeter at a time. • Any boat that enters the perimeter will complete the 10km journey into the harbor before it reaches the dock. • No other boat may enter the 10km perimeter once a boat is inside the perimeter. • Boats arrive at the perimeter randomly. • All boats that arrive at the perimeter must wait at the 10km perimeter line before they are ordered to ender the perimeter by harbor control. • There are 3 types of boats: o Speedboat ▪ Speed: 30km/h o Sailboat ▪ Speed: 15km/h o Cargo ship ▪ Speed: 5km/h • These types of boats can arrive at the perimeter at any time. • Once the boat in the perimeter has completed the 10km journey and docked, a boat waiting at the perimeter may enter. • Snapshot example: o There are 2 speedboats and a Sailboat at the perimeter o There is one Cargo ship inside the perimeter o The 2 speedboats and sailboat need to wait for the cargo ship to reach the dock before harbor control can signal one of them to enter the perimeter.
+The application is built with 6 layers
+built using code first approach
+using .NET 5 Core webapi
+
+1. API -- The main application
+2. harbour.integration -- couples all the integrations of the weather API
+3. harbour.model__views -- contains all user representation models i.e view models
+4. harboour.models -- contains all the database interfacing classes i.e. your representational database model.
+5. harbour.services -- contains all the business logic
+6. and finally harbour.helpers -- contains the data context
+
+Project Properties
+This project was built using .Net Core 5.0.100. It uses swagger v5 for documentation. It also requires that you have SQL server running in your machine, however it should still work as long as Visual Studio (localDb) Dependancies have been installed. Please ensure you also have .Net Core 5 SDK and runtime installed as well as .Net Core CLI if will be using the command line, otherwise you can use Package Manager Console on Visual Studio. The database is a code first approach and uses migrations to manage the database schemas.
+
+here are a few links to get you started: Download .Net Core 5 Documentation donet cli
+
+How to run
+It is relatively simple to get stared.
+
+Make sure you are in the root directory of the app.
+First, If you choose to build the project, It will install and restore all the nuget packages.
+In case you skipped and/or are not successful in the above step, or to ensure its done run command dotnet restore if running on VS, go to project solution explorer right click and choose restore nuget. if your project gets errors after building and installing these packages, run command dotnet nuget locals all --clear this will help clear the error in .Net Core 5
+Afterwards, run command dotnet ef database update if there are no migrations you can start by adding one dotenet ef migrations add <Migration Name> on Visual Studio under PM you can run update-database or if there are no migrations run add-migration <Migration name> please refer to the documentation Managing Schemas
+Make sure everything is builds successfully. Errors may arise because of your connection string. Otherwise on AppSettings.json You can modify the connection string to match your computer.
+If the above is successful, run command dotnet run to run the application. if using visual studio, you can press F5 or simply the green run button.
+If having problems, do not hesitate, contact me on musa.buthelezi@outlook.com
+ 
